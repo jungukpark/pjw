@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title> 박정욱 - samyang </title>
+    <script src="./js/jquery-1.9.1.min.js"></script>
+    <script src="./js/jquery.easing.1.3.min.js"></script>
+    <!-- slick plugin - js -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="./js/samyang.js"></script>
+    <!-- <script src="./js/slide.js"></script> ★== -->
+
+    <!-- slide new -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script type="text/JavaScript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- slick plugin - css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <!-- #wrap>header>.tnb>.tnb_wrap>p -->
+    <div id="wrap">
+        <!-- ========================================
+            header 
+        ==========================================-->
+        <header>
+            <!-- 상단슬로건과 메뉴들 -->
+            <div class="tnb">
+                <div class="tnb_wrap">
+                    <!-- 슬로건 -->
+                    <p>
+                        행복과 사랑이 넘치는 <span>삼양식품</span> 입니다.
+                    </p>
+                    <!-- sns, 각 사업부 버튼  -->
+
+                    <div class="utill">
+                        <!-- sns -->
+                        <ul class="sns">
+                            <li><a href="https://blog.naver.com/samyangfoods">
+                                    <img src="./images/ico_sns_blog.png" alt="네이버블로그"></a></li>
+                            <li><a href="https://www.instagram.com/samyangfoods/">
+                                    <img src="./images/ico_sns_insta.png" alt="인스타그램"></a></li>
+                            <li><a href="https://twitter.com/samyangfoods">
+                                    <img src="./images/ico_sns_twitter.png" alt="트위터"></a></li>
+                            <li><a href="https://www.facebook.com/samyangfoods">
+                                    <img src="./images/ico_sns_facebook.png" alt="페이스북"></a></li>
+                        </ul>
+                        <!-- 각 사업부 링크-->
+
+                        <ul class="link">
+                            <li><a href="#">쇼핑몰</a></li>
+                            <li><a href="#">IR</a></li>
+                            <li><a href="#">인재채용</a></li>
+                            <li><a href="#">KOR</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- 로고, 주메뉴 - gnb -->
+
+            <nav class="navWrap">
+                <div class="navInner">
+                    <!-- logo -->
+                    <h1 class="logo">
+                        <a href="./index.html">
+                            <img src="./images/samyang-bi.svg" alt="삼양로고">
+                        </a></h1>
+                    <!-- 주메뉴 -->
+
+                    <div class="gnbWrap">
+                        <ul class="gnb">
+                            <li class="gnb_01"><a href="#">브랜드</a>
+
+                                <div class="sGnbArea">
+                                    <ul class="sGnb_01">
+                                        <li class="sGnb_01a"><a href="#">삼양라면</a></li>
+                                        <li class="sGnb_01b"><a href="#">불닭볶음면</a></li>
+                                        <li class="sGnb_01c"><a href="#">갓시리즈</a></li>
+                                        <li class="sGnb_01d"><a href="#">별뽀빠이</a></li>
+                                        <li class="sGnb_01e"><a href="#">삼양누기농우유</a></li>
+                                        <li class="sGnb_01f"><a href="#">제품 전체보기</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="gnb_02"><a href="#">삼양패밀리</a>
+                                <div class="sGnbArea">
+                                    <ul class="sGnb_02">
+                                        <li class="sGnb_02a"><a href="#">삼양목장</a></li>
+                                        <li class="sGnb_02b"><a href="#">호면당</a></li>
+                                        <li class="sGnb_02c"><a href="#">삼양새아침</a></li>
+                                        <li class="sGnb_02d"><a href="#">제주우유</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="gnb_03"><a href="#">홍보관</a>
+                                <div class="sGnbArea">
+                                    <ul class="sGnb_03">
+                                        <li class="sGnb_03a"><a href="#">보도자료</a></li>
+                                        <li class="sGnb_03b"><a href="#">홍보영상</a></li>
+                                        <li class="sGnb_03c"><a href="#">광고영상</a></li>
+                                        <li class="sGnb_03d"><a href="#">호치와 친구들</a></li>
+                                        <li class="sGnb_03e"><a href="#">삼양역사관</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="gnb_04"><a href="#">커뮤니티</a>
+
+                                <div class="sGnbArea">
+                                    <ul class="sGnb_04">
+                                        <li class="sGnb_04a"><a href="#">공지사항</a></li>
+                                        <li class="sGnb_04b"><a href="#">이벤트</a></li>
+                                        <li class="sGnb_04c"><a href="#">레시피</a></li>
+                                        <li class="sGnb_04d"><a href="#">FAQ</a></li>
+                                        <li class="sGnb_04e"><a href="#">고객센터</a></li>
+                                        <li class="sGnb_04f"><a href="#">삼양 사연</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li class="gnb_05"><a href="#">회사소개</a>
+                                <div class="sGnbArea">
+                                    <ul class="sGnb_05">
+                                        <li class="sGnb_05a"><a href="#">삼양식품</a></li>
+                                        <li class="sGnb_05b"><a href="#">계열사</a></li>
+                                        <li class="sGnb_05c"><a href="#">공장</a></li>
+                                        <li class="sGnb_05d"><a href="#">사회공헌</a></li>
+                                        <li class="sGnb_05e"><a href="#">오시는길</a></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- ============================
+        main
+    ============================= -->
+        <main>
+            <section id="main_slides">
+                <!-- 메인슬라이드 -->
+                <h2 class="blind">메인슬라이드</h2>
+                <div class="swiper mySwiper">
+                    <!-- 슬라이드 -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide"></div>
+                    </div>
+                    <!-- 인디케이터 -->
+                    <div class="swiper-pagination slides-pagenation">
+                    </div>
+                    <!-- 이전, 다음버튼 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+
+            </section>
+
+            <!-- 제품소개 -->
+
+            <section id="product-wrap">
+                <div class="newInner">
+                    <!-- 1. 신제품소개 -->
+
+                    <div class="product-new">
+
+                        <div class="newPro3ea">
+
+                            <ul>
+                                <li class="pro-01">
+                                    <a href="#">
+                                        <img src="images/r1.png" alt="큰컵김치찌개면">
+                                    </a>
+                                </li>
+                                <li class="pro-02">
+                                    <a href="#">
+                                        <img src="images/r2.png" alt="김치찌개면">
+                                    </a>
+                                </li>
+                                <li class="pro-03">
+                                    <a href="#">
+                                        <img src="images/r3.png" alt="불닭볶음탕면">
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                            <!-- 인디케이터 - 점 -->
+                            <div class="inds">
+                                <div class="indicator active"></div>
+                                <div class="indicator"></div>
+                                <div class="indicator"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 2. 슬로건 -->
+                    <h2>삼양 제품소개
+                        <span>
+                            Delicious Together!
+                        </span>
+                    </h2>
+                    <p class="porduct-text">
+                        다양한 제품을 <br>
+                        한 곳에서 즐기세요!
+                    </p>
+
+                    <!-- 3.각 메뉴 버튼 -->
+                    <ul class="menu-list">
+                        <li>
+                            <a href="#">
+                                <p>라면</p>
+                                <!-- 아이콘 -->
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>스넥</p>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>유제품</p>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>소스&#183;간편식</p>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>냉동&#183;간편식</p>
+                                <span></span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+                <!-- 슬릭슬라이드 -->
+
+                <!-- slick slide plugin - 라면들 8개 -->
+                <div class="menu-wrap">
+
+                    <div class="banner">
+
+
+                        <!-- banner slider -->
+
+                        <div class="banner_slider">
+
+                            <!-- 1 -->
+                            <div class="items">
+                                <p><img src="./images/r4.png" alt="치즈불닭볶음면"></p>
+                                <p>치즈의 풍미가 살아있는!</p>
+                                <span>치즈불닭볶음면</span>
+                            </div>
+                            <!-- 2 -->
+                            <div class="items">
+                                <p><img src="./images/r5.png" alt="화끈불닭볶음면"></p>
+                                <p>화끈한 맛!</p>
+                                <span>화끈불닭볶음면</span>
+                            </div>
+                            <!-- 3 -->
+                            <div class="items">
+                                <p><img src="./images/r6.png" alt="삼양라면"></p>
+                                <p>대한민국 최초 라면</p>
+                                <span>삼양라면</span>
+                            </div>
+                            <!-- 4 -->
+                            <div class="items">
+                                <p><img src="./images/r7.png" alt="쿨불닭볶음면"></p>
+                                <p>새콤달콤 시원한</p>
+                                <span>쿨불닭볶음면</span>
+                            </div>
+                            <!-- 5 -->
+                            <div class="items">
+                                <p><img src="./images/r8.png" alt="갓짬뽕"></p>
+                                <p>갓 끓여낸 짬뽕의 신</p>
+                                <span>갓짬뽕</span>
+                            </div>
+                            <!-- 6 -->
+                            <div class="items">
+                                <p><img src="./images/r9.png" alt="짜짜로니"></p>
+                                <p>풍부한 짜장의 맛</p>
+                                <span>짜짜로니</span>
+                            </div>
+                            <!-- 7 -->
+                            <div class="items">
+                                <p><img src="./images/r10.png" alt="쿠티크 투움바파스타"></p>
+                                <p>매콤 꾸덕 투움바파스타</p>
+                                <span>쿠티크 투움바파스타</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- // slik slide -->
+
+            </section>
+
+            <!-- ============================
+        family
+============================= -->
+
+
+            <section id="family-wrap">
+                <div class="center">
+                    <!-- title -->
+                    <h2>삼양 패밀리<span>
+                            삼양식품의 관계&#183;계열사를 소개합니다.
+                        </span></h2>
+
+
+                    <div class="family-block">
+                        <!-- 1 -->
+                        <div class="block-area1">
+                            <div class="block1">
+                                <!-- .tit.type01 -->
+                                <div class="type01">
+                                    대관령 삼양 목장
+                                </div>
+                                <!-- p+img -->
+                                <p>600만평의 광활한 대지
+                                    <br> 프르른 대관령 무공해 천영 목장
+                                </p>
+                                <a href="#"> <img src="./images/btn_more_fam01.png" alt="자세히 보기"></a>
+                            </div>
+                        </div>
+                        <!-- 2-->
+                        <div class="block-area2">
+                            <div class="block2">
+                                <!-- .tit+p+img -->
+                                <div class="tit">삼양 새아침</div>
+                                <p>식생활 문화의 밝은 햇살</p>
+                                <a href="#"> <img src="./images/btn_more_fam02.png" alt="자세히 보기"></a>
+                            </div>
+                        </div>
+                        <!-- 3-->
+                        <div class="block-area3">
+
+                            <div class="block3">
+                                <!-- .tit+p+img -->
+                                <div class="tit">호면당</div>
+                                <p>품격있는 <br>프리미엄 누들 하우스</p>
+                                <a href="#"> <img src="./images/btn_more_fam03.png" alt="자세히보기"></a>
+                            </div>
+
+                            <div class="block4">
+                                <div class="tit">삼양 제주 우유</div>
+                                <p>자연에 가장 가까운 맛!</p>
+                                <a href="#"> <img src="./images/btn_more_fam04.png" alt="자세히보기"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <!-- ============================
+        footer
+============================= -->
+        <footer>
+
+            <div class="footerWrap">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="#">
+                        <img src="./images/samyang-bi-bottom.svg" alt="logo"></a></div>
+
+                <!-- 하단메뉴,카피라이터 -->
+
+                <div class="bmenuCopy">
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">고객지원</a></li>
+                        <li><a href="#">IR</a></li>
+                        <li><a href="#">인재채용</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                        <li><a href="#" class="bold">개인정보처리방침</a></li>
+                    </ul>
+                    <!-- copyright -->
+                    <address>
+                        서울특별시 성북구 오패산로 3길 104
+                        <span>T. 02-940-3000</span>
+                        <span>F. 02-940-4350</span>
+                    </address>
+                    <div class="copyright">
+                        <p>&copy; 2023 Samyangfoods. All rights reserved. </p>
+                    </div>
+                </div>
+                <!-- sns, familysite -->
+
+                <div class="bSnsfam">
+                    <!-- sns 4종 -->
+                    <ul class="sns">
+                        <li><a href="#">
+                                <img src="./images/ico_sns_blog2.png" alt="블로그"></a></li>
+                        <li><a href="#"><img src="./images/ico_sns_insta2.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="./images/ico_sns_twitter2.png" alt="트위터"></a></li>
+                        <li><a href="#"><img src="./images/ico_sns_facebook2.png" alt="페이스북"></a></li>
+                    </ul>
+                    <!-- family site -->
+
+                    <!-- name="" : 서버로 데이타 제출시 사용 -->
+                    <!-- id="" : select라는 요소를 고유하게 식별하기 위해 사용 -->
+                    <!-- value="" : 각 옵션의 값을 나타냄, 
+                        여기에 적힌 내용이 서버로 제출됨
+                    사용자가 선택한 옵션에 해당하는 고유값을 가짐
+                    자바스크립트를 사용하여 동적으로 선택한 옵션값을 가져올때도 유용함
+                    -->
+                    <!-- onchange="window.open(this.value, '_blank')"
+
+                        (설명)
+                        window.open - 새창열기 
+                        this.value - 이벤트가 발생한 value값 
+                        this.value, '_blank' - 매개변수로, 
+                        새창이나 텝에서 링크여는 방법을 지정 
+                        onchange - 이벤트는
+                        select 요소에서 옵션을 선택할때마다 
+                        value값을 가져와서 새창을 열게 됨 
+                        -->
+
+                    <div class="family">
+                        <select id="familySelect" onchange="window.open(this.value, '_blank')">
+                            <option value="Family Site"> Family Site </option>
+                            <option value="http://www.samyangflour.com/">삼양제분</option>
+                            <option value="http://www.jejumilk.com/">제주우유</option>
+                            <option value="https://www.samyangranch.co.kr/index">삼양라운드힐</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- 따라다니는 퀵메뉴 -->
+        <!-- #quick>ul>li*4>a -->
+        <div id="quick">
+            <ul>
+                <li><a href="#">홍보관</a></li>
+                <li><a href="#">지속가능경영</a></li>
+                <li><a href="#">고객지원</a></li>
+            </ul>
+            <!-- 수정 -->
+            <div class="arrow">
+                <a href="#"><img src="./images/quick_arrow.png" alt="#"></a>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script>
+        // slick slide plugin
+        $(function () {
+            // 슬라이드 초기화
+            $(".banner_slider").slick({
+                autoplay: true, // 자동재생 활성화 (수정)
+                autoplaySpeed: 1000, // (수정)
+                infinite: true, // 무한반복슬라이드
+                slidesToShow: 5, // 보이는 슬라이드 갯수 
+                dots: false, // 인디케이터 비활성화 (보이게하려면true )                
+                focusOnSelect: true, //  슬라이드 선택시 포커스
+                arrows: true, // 이전, 다음 화살표
+                // speed: 200,  // 2초 (주석)
+                conterPadding: '120px', // 중앙 슬라이드와의간격
+                prevArrow: $("#BtnPrev"), // 이전 화살표 선택
+                nextArrow: $("#BtnNext"), // 다음 화살표 선택
+                centerMode: true // 중앙 슬라이드 모드 활성화 
+            })
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2000, // 슬라이드 간의 간격을 밀리초 단위로 설정 (예: 2000 밀리초 = 2초)
+                disableOnInteraction: false, // 사용자 상호 작용 후에도 자동 슬라이드 계속
+            },
+        });
+    </script>
+</body>
+
+</html>
